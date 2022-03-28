@@ -1,0 +1,361 @@
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    color:#464646;
+    background-color: #F5F5F5;
+}
+
+.seccion-azul{
+    clear: both;
+    background-color: #EAF2FD;
+    padding: 2em 9.5em;
+}
+
+.seccion-clara{   
+    padding: 2em 9.5em;
+}
+
+header {
+    padding: 1.25em; 
+}
+
+header a{
+    text-decoration: none;
+}
+
+.caja{
+    position: relative;
+    width: 100%;
+}
+
+#destello{
+    position:absolute;
+}
+
+#mi-nombre{
+    color:#464646;  
+}
+
+h5{
+    position: absolute;
+    font-weight: bold;
+    font-size: 1.25em;  
+    margin: 0 0 0 2.5em;
+}
+
+nav{
+    position: absolute;
+    margin: 0 0 0 37em;
+}
+
+nav li{
+    display: inline; 
+    padding: 0 0 0 1em;
+   
+}
+
+nav a{
+    font-size: 1.25em;  
+    color:#464646; 
+}
+
+#presentacion{
+    margin: 0 0 3em 0;
+}
+
+#foto-perfil{
+    position: relative;
+    width: 23em;
+    float: right;
+    border-radius: 50%;
+    margin: 0 3.125em 0 0;
+}
+
+#titulo-principal {
+    position: relative;
+    width: 65%;
+    font-size: 3.25em;
+    font-weight: 700;
+    margin: 1.35em 0 0.29em 0;   
+    line-height: 1.06em;
+}
+
+#subtitulo-principal{
+    font-size: 1.25em;
+    margin:1em 0 0 0;
+    width: 60%;
+    line-height: 1.25em;
+    text-align: justify;
+}
+
+.lista-links{
+    position: relative;
+    display: inline-flex; 
+    margin: 3.125em 0 0 0;     
+}
+
+.link {
+    padding: 0 1em 0 0;
+    font-weight: bold;
+}
+
+.link a{
+    text-decoration-line: none;
+    color: #464646;
+}
+
+.link:after{    	
+    content: "🡥" ;
+}
+
+
+.titulos-secundarios{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    padding: 0.3125em;
+    
+}
+
+#titulo-sobreMi {
+    text-align: left;
+    padding: 0 0 10px 0;
+}
+
+.parrafos-sobreMi{
+    padding: 20px 0 0 0;
+    line-height: 24px;
+    width: 95%;
+    text-align: justify;
+}
+
+#imagen-firma{
+    width: 8%;
+    margin: 0.625em 0 0 1.25em;
+}
+
+.skills li{
+    display: inline-block;
+    text-align: left;
+    width: 11em; 
+    height: 11em;
+    margin: 0 2%; 
+    box-sizing: border-box;
+    background-color: white;
+    
+}
+
+.img-skill{
+ margin: 6.25em 0 0 1.25em;
+}
+
+.titulo-skill {
+    font-weight: 700;
+    margin: 0.625em 0 0 1.25em;
+}
+
+.hobbies li{
+    display: inline-block;
+    text-align: left;
+    width: 11em; 
+    height: 11em; 
+    margin: 0 2%;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.img-hobbies{
+    margin: 6.25em 0 0 1em;
+}
+
+.titulo-hobbie {
+    font-weight: 700;
+    margin: 0.625em 0 0 1em;
+}
+
+.lista-formacion li{
+    display: inline-block;
+    text-align: left; 
+    box-sizing: border-box;
+    margin: 0 1.25em;   
+}
+
+.titulo-formacion{
+    font-weight: 700;
+    font-size: 1.375em;
+    line-height: 1.136em;
+    margin: 0.45em 0 0.54em 0;
+}
+
+.año-formacion{
+    margin: 0 0 1em 0;
+}
+
+.imagen-proyecto {
+    margin: 1.25em;    
+}
+
+.titulo-proyecto {
+    font-size: 1.375em;
+    font-weight: bold;
+    padding: 7.27em 0 0.45em 0;
+}
+
+.subtitulo-proyecto {
+    padding: 0 0 0.625em 0;
+}
+
+.boton-repositorio{    
+    background-color: #2A7AE4;
+    border: 0;
+    color: white;
+    padding: 0.625em;
+}
+
+.boton-repositorio:hover{
+    background-color: #16519e ;    
+}
+
+#imagen-encriptador {
+    float: left;
+    width: 70%;    
+}
+
+#imagen-ahorcado {
+    float: right;
+    width: 60%;
+}
+
+#titulo-ahorcado {
+    clear:left;
+}
+
+.img-telefono{
+    float:left;
+    width: 29em;
+    height: 37.06em;
+    margin: 0.625em;
+}
+
+#titulo-contacto{
+    text-align: left;
+}
+
+.texto-contacto{
+    padding: 0.625em;
+    line-height: 1.19em;
+}
+
+.input-padron{
+    display: block;
+    margin: 0.9em 0;
+    padding: 0.625em 1.56em;
+    width: 50%;
+    border-radius: 0.25em;
+    border:0;
+}
+
+.enviar{
+    background: #2A7AE4;
+    border:0;
+    padding:1em;
+    width: 9em;
+    height: 3.19em;
+    color: white;
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+    margin: 0.9em 0 0 0;
+}
+
+.enviar:hover{
+    background-color: #16519e ;    
+}
+
+footer {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 1em;
+    padding: 1.25em;
+    margin: 0.625em;
+}
+
+
+@media screen and (max-width:480px){
+    
+  
+    .seccion-azul, .seccion-clara {
+        padding: 2em;
+    }
+
+    #presentacion{
+        margin: 0 0 0.5em 0;
+    }
+    
+    #foto-perfil{ 
+        margin: 0;
+        float:none;
+        width: 70%;
+    }
+
+    #titulo-principal, #subtitulo-principal {
+        width: auto;
+    }
+
+    .lista-links{ 
+           display: list-item;
+           margin: 1em 0 2em 0;
+    }
+
+    .lista-links li{ 
+        margin: 0.5em 0 0.5em 0;
+ }
+
+    #imagen-firma{
+        width: 25%;
+        margin: 1em 0;
+    }
+
+    #skills, #hobbies{
+        margin: 0; 
+        width: 100%;
+        padding: 0;
+    }
+
+    #skills li, #hobbies li{
+        width: 40%;
+        margin: 0 0 1em 1.5em;
+    }
+  
+    .img-academia{
+        width: 100%;
+    }
+
+    nav, .img-telefono{
+        visibility: hidden;
+        display: none;
+    }
+
+    #imagen-encriptador, #imagen-ahorcado{
+        float: none;
+    }
+
+    #proyectos{
+        text-align: center;
+    }
+    
+    .titulo-proyecto{
+        padding: 0;
+    }
+
+    .subtitulo-proyecto{
+        margin: 0.5em 0 0 0;
+    }
+    
+    .input-padron{
+        width: 80%;        
+    }            
+}
+
