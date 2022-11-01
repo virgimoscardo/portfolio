@@ -8,6 +8,9 @@ body{
     background-color: #F5F5F5;
 }
 
+a{
+    text-decoration: none;
+}
 .seccion-azul{
     clear: both;
     background-color: #EAF2FD;
@@ -62,16 +65,13 @@ nav a{
     color:#464646; 
 }
 
-#presentacion{
-    margin: 0 0 3em 0;
-}
 
 #foto-perfil{
     position: relative;
-    width: 23em;
+    width: 18em;
     float: right;
     border-radius: 50%;
-    margin: 0 3.125em 0 0;
+    margin: 0 9em 0 0;
 }
 
 #titulo-principal {
@@ -84,7 +84,7 @@ nav a{
 }
 
 #subtitulo-principal{
-    font-size: 1.25em;
+    font-size: 1.8em;
     margin:1em 0 0 0;
     width: 60%;
     line-height: 1.25em;
@@ -94,7 +94,7 @@ nav a{
 .lista-links{
     position: relative;
     display: inline-flex; 
-    margin: 3.125em 0 0 0;     
+    margin: 2em 0 0 0;     
 }
 
 .link {
@@ -131,56 +131,54 @@ nav a{
     width: 95%;
     text-align: justify;
 }
-
-#imagen-firma{
-    width: 8%;
-    margin: 0.625em 0 0 1.25em;
+.skills{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
 .skills li{
-    display: inline-block;
     text-align: left;
     width: 11em; 
     height: 11em;
-    margin: 0 2%; 
+    /*padding: 0 0 10% 0;*/
+    margin: 4% 2%; 
     box-sizing: border-box;
     background-color: white;
     
 }
 
 .img-skill{
- margin: 6.25em 0 0 1.25em;
+    width: 50px;;
+  margin: 5em 0 0 1.25em;
 }
 
 .titulo-skill {
     font-weight: 700;
-    margin: 0.625em 0 0 1.25em;
+    margin: 0.8em 0 0 1.25em;
+    
 }
 
-.hobbies li{
-    display: inline-block;
-    text-align: left;
-    width: 11em; 
-    height: 11em; 
-    margin: 0 2%;
-    box-sizing: border-box;
-    background-color: white;
+
+.lista-formacion{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+     
 }
 
-.img-hobbies{
-    margin: 6.25em 0 0 1em;
+.curso{
+    margin: 30px;
 }
 
-.titulo-hobbie {
-    font-weight: 700;
-    margin: 0.625em 0 0 1em;
-}
-
-.lista-formacion li{
+/*.lista-formacion li{
     display: inline-block;
     text-align: left; 
     box-sizing: border-box;
-    margin: 0 1.25em;   
+    margin: 0 1.25em;
+}*/
+
+.p-curso{
+    line-height: 25px;
+    text-align: justify;
 }
 
 .titulo-formacion{
@@ -190,12 +188,16 @@ nav a{
     margin: 0.45em 0 0.54em 0;
 }
 
+.img-academia{
+    width: 300px;;
+}
+
 .año-formacion{
     margin: 0 0 1em 0;
 }
 
 .imagen-proyecto {
-    margin: 1.25em;    
+    margin: 1.25em 1.25em 1.25em 0 ;    
 }
 
 .titulo-proyecto {
@@ -219,34 +221,45 @@ nav a{
     background-color: #16519e ;    
 }
 
-#imagen-encriptador {
-    float: left;
-    width: 70%;    
+.imagen-izq {
+    width: 60%;    
 }
 
-#imagen-ahorcado {
+.imagen-der {
     float: right;
     width: 60%;
 }
 
-#titulo-ahorcado {
+.titulo-izq {
     clear:left;
 }
 
-.img-telefono{
-    float:left;
-    width: 29em;
-    height: 37.06em;
+.curso-der{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.img-contacto{
+    
+    height: 18em;
     margin: 0.625em;
 }
 
 #titulo-contacto{
     text-align: left;
+    
+}
+
+.enlace-contacto{
+    text-decoration: none;
 }
 
 .texto-contacto{
     padding: 0.625em;
-    line-height: 1.19em;
+    line-height: 3em;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1em;
 }
 
 .input-padron{
