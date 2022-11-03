@@ -292,7 +292,8 @@ footer {
     
 }
 
-#titulo-principal{        
+#titulo-principal{   
+    margin-top:1em;     
     margin: 0 ;
     font-size: 28px;    
     width: 100%;
@@ -307,6 +308,10 @@ footer {
     width: 100%;
      
  }
+
+ .lista-links{
+    margin: 1.5em 0 2em 0;     
+}
 
 .skills{
     display: grid;
@@ -376,7 +381,7 @@ footer {
 }
 
 .boton-repositorio{    
-    margin: 0 0 1em 0;   
+    margin: 0 0 2em 0;   
        
 }
 
