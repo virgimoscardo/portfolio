@@ -107,10 +107,6 @@ nav a{
     color: #464646;
 }
 
-.link:after{    	
-    content: "🡥" ;
-}
-
 
 .titulos-secundarios{
     text-align: center;
