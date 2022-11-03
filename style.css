@@ -140,7 +140,7 @@ nav a{
     text-align: left;
     width: 11em; 
     height: 11em;
-    /*padding: 0 0 10% 0;*/
+   
     margin: 4% 2%; 
     box-sizing: border-box;
     background-color: white;
@@ -169,12 +169,6 @@ nav a{
     margin: 30px;
 }
 
-/*.lista-formacion li{
-    display: inline-block;
-    text-align: left; 
-    box-sizing: border-box;
-    margin: 0 1.25em;
-}*/
 
 .p-curso{
     line-height: 25px;
@@ -243,12 +237,10 @@ nav a{
     
     height: 18em;
     margin: 0.625em;
+    margin-left: 3em;
 }
 
-#titulo-contacto{
-    text-align: left;
-    
-}
+
 
 .enlace-contacto{
     text-decoration: none;
@@ -258,33 +250,9 @@ nav a{
     padding: 0.625em;
     line-height: 3em;
     display: inline-block;
-    vertical-align: top;
+    vertical-align:top;
     font-size: 1em;
-}
-
-.input-padron{
-    display: block;
-    margin: 0.9em 0;
-    padding: 0.625em 1.56em;
-    width: 50%;
-    border-radius: 0.25em;
-    border:0;
-}
-
-.enviar{
-    background: #2A7AE4;
-    border:0;
-    padding:1em;
-    width: 9em;
-    height: 3.19em;
-    color: white;
-    font-size: 1em;
-    font-family: 'Raleway', sans-serif;
-    margin: 0.9em 0 0 0;
-}
-
-.enviar:hover{
-    background-color: #16519e ;    
+    margin-top: 2em;
 }
 
 footer {
@@ -297,78 +265,137 @@ footer {
 
 
 @media screen and (max-width:480px){
-    
-  
-    .seccion-azul, .seccion-clara {
-        padding: 2em;
-    }
+ body{
+    width: auto;
+    font-size: 14px;
+ }  
 
-    #presentacion{
-        margin: 0 0 0.5em 0;
-    }
-    
-    #foto-perfil{ 
-        margin: 0;
-        float:none;
-        width: 70%;
-    }
-
-    #titulo-principal, #subtitulo-principal {
-        width: auto;
-    }
-
-    .lista-links{ 
-           display: list-item;
-           margin: 1em 0 2em 0;
-    }
-
-    .lista-links li{ 
-        margin: 0.5em 0 0.5em 0;
+ nav{
+    display: none;
  }
 
-    #imagen-firma{
-        width: 25%;
-        margin: 1em 0;
-    }
 
-    #skills, #hobbies{
-        margin: 0; 
-        width: 100%;
-        padding: 0;
-    }
+ 
+ 
+ .seccion-azul, .seccion-clara {
+    padding: 0 0 0 0;
+    padding-left: 1em;
 
-    #skills li, #hobbies li{
-        width: 40%;
-        margin: 0 0 1em 1.5em;
-    }
-  
-    .img-academia{
-        width: 100%;
-    }
-
-    nav, .img-telefono{
-        visibility: hidden;
-        display: none;
-    }
-
-    #imagen-encriptador, #imagen-ahorcado{
-        float: none;
-    }
-
-    #proyectos{
-        text-align: center;
-    }
-    
-    .titulo-proyecto{
-        padding: 0;
-    }
-
-    .subtitulo-proyecto{
-        margin: 0.5em 0 0 0;
-    }
-    
-    .input-padron{
-        width: 80%;        
-    }            
 }
 
+#foto-perfil{ 
+    float:none;
+    align-items: center;
+    width: 50%;    
+    margin-top: 2em;
+    margin-right:0;
+    
+}
+
+#titulo-principal{        
+    margin: 0 ;
+    font-size: 28px;    
+    width: 100%;
+    
+} 
+
+#subtitulo-principal {
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-top: 10px;
+    width: 100%;
+     
+ }
+
+.skills{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.skills li{
+    text-align: left;
+    width: auto; 
+    height: 6em;   
+    margin: 4% 5%; 
+    box-sizing: border-box;
+    background-color: white;
+    
+}
+
+.img-skill{
+    width: 25px;;
+    margin:1.5em 0 0 1.25em;
+}
+
+.titulo-skill {
+    font-weight: 700;
+    margin: 0.8em 0 0 0.2em;
+    font-size: 12;
+    
+}
+
+.lista-formacion{
+    display:block;
+    width: 100%;
+     
+}
+
+
+.p-curso{
+    line-height: 16px;
+    text-align: left;
+}
+
+
+.img-academia{
+    width: 80%;
+}
+
+.imagen-proyecto {
+    margin: 0;
+}
+
+.titulo-proyecto {
+    font-size: 1.375em;
+    font-weight: bold;
+    padding: 0.5em 0 0.5em 0;
+}
+
+.subtitulo-proyecto {
+   padding: 0 0.5em 2em 0;
+}
+
+.imagen-izq {
+    width: 90%;    
+}
+
+.imagen-der {
+    float: none;
+    width: 90%
+}
+
+.boton-repositorio{    
+    margin: 0 0 1em 0;   
+       
+}
+
+.texto-contacto{
+    line-height: 2em;
+    display: block;    
+    margin-top: 0;
+}
+
+.img-contacto{    
+    display: none;
+}
+
+
+footer {
+   
+   padding-left: 0;
+   padding-right: 0;
+   margin-left: 0;
+}
+
+}
