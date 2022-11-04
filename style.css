@@ -358,17 +358,20 @@ footer {
 }
 
 .imagen-proyecto {
-    margin: 0;
+    
+    margin-top: 1em 0 0 0 ;
 }
 
 .titulo-proyecto {
     font-size: 1.375em;
     font-weight: bold;
     padding: 0.5em 0 0.5em 0;
+    width: 100%;
 }
 
 .subtitulo-proyecto {
    padding: 0 0.5em 1em 0;
+   width: 100%;
 }
 
 .imagen-izq {
@@ -383,6 +386,10 @@ footer {
 .boton-repositorio{    
     margin: 0 0 2em 0;   
        
+}
+
+#rep-front{
+    margin-bottom: 0.5em;
 }
 
 .texto-contacto{
