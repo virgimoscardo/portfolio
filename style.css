@@ -224,9 +224,13 @@ nav a{
     clear:left;
 }
 
+
+
+
 .curso-der{
     display: inline-block;
     vertical-align: top;
+    width: 35%;
 }
 
 .img-contacto{
@@ -364,7 +368,7 @@ footer {
 }
 
 .subtitulo-proyecto {
-   padding: 0 0.5em 2em 0;
+   padding: 0 0.5em 1em 0;
 }
 
 .imagen-izq {
